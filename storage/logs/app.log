@@ -1,1 +1,4 @@
 2021/08/21 09:26:50 {"callers":["/mnt/c/Users/dron/rong/project/go-web/main.go: 26 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1629509210702624400}
+2021/08/22 21:49:20 {"callers":["/mnt/c/Users/dron/rong/project/go-web/main.go: 26 main.init.0"],"level":"error","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1629640160403007400}
+2021/08/22 21:49:23 {"callers":["/mnt/c/Users/dron/rong/project/go-web/main.go: 26 main.init.0"],"level":"error","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1629640163067668600}
+2021/08/22 21:49:32 {"callers":["/mnt/c/Users/dron/rong/project/go-web/main.go: 26 main.init.0"],"level":"error","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1629640172838326900}

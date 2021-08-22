@@ -4,6 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-web/pkg/app"
 	"github.com/go-web/pkg/errcode"
+	"fmt"
 
 )
 
@@ -15,6 +16,9 @@ func NewArticle() Article {
 
 func (a Article) Get(c *gin.Context) {
 	app.NewResponse(c).ToErrorResponse(errcode.ServerError)
+	local := c.GetHeader("local")
+	fmt.Println("local")
+	fmt.Println(local)
 	return
 }
 func (a Article) List(c *gin.Context) {}
