@@ -14,6 +14,7 @@ func (t Tag) TableName() string {
 
 func (t Tag) Count(db *gorm.DB) (int, error) {
 	var count int
+	// 查找name相同
 	if t.Name != "" {
 		db = db.Where("name = ?", t.Name)
 	}
